@@ -31,7 +31,7 @@ Example images can be found in the `example_images` directory, with execution ou
 
 ### Example image credits
 - `example_images/afrofuturism.png`: Kaylan Michel [more information](https://mossandfog.com/beautifully-vibrant-afrofuturism-collages/)
-- `example_images/deadshot.jpg`: Marvel Comics (image of cover page of Deadshot issue #1)
+- `example_images/deadshot.jpg`: DC Comics (image of cover page of Deadshot issue #1)
 - `example_images/fire.jpg`: Elena Penkova [more information](https://www.flickr.com/photos/126710094@N04/16767529578)
 - `example_images/steampunk.jpg`: Jef Wall [more information](https://zephyrchef.artstation.com/projects/LQ4vl)
 - `example_images/superman.jpg`: I've seen this image used in many websites and none seem to cite it, so I'm not sure on the official source. That being said, I know it is a (likely promotional) image of George Reeves from the film *Superman and the Mole Men* (1951).

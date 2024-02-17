@@ -6,20 +6,28 @@ A simply CLI utility to convert an image's color palette to that of another imag
 Example images can be found in the `example_images` directory, with execution outputs in the `example_output` directory. Credits are given in the following subsection.
 
 <p float="left">
-  <img src="example_images/afrofuturism.png" width="30" />
-  <img src="example_images/steampunk.jpg" width="30" /> 
-  <img src="example_output/afrofuturism-steampunk.jpg" width="30" />
+  <img src="example_images/afrofuturism.png" width="200" />
+  <img src="example_images/steampunk.jpg" width="200" /> 
+  <img src="example_output/afrofuturism-steampunk.jpg" width="200" />
 </p>
 
 <p float="left">
-  <img src="example_images/steampunk.jpg" width="30" />
-  <img src="example_images/afrofuturism.png" width="30" /> 
-  <img src="example_output/steampunk-afrofuturism.jpg" width="30" />
+  <img src="example_images/steampunk.jpg" width="200" />
+  <img src="example_images/afrofuturism.png" width="200" /> 
+  <img src="example_output/steampunk-afrofuturism.jpg" width="200" />
 </p>
 
-![Tree image](example_images/tree.jpg) ![Fire image](example_images/fire.jpg) ![Tree converted to fire color palette](example_output/tree-fire.jpg)
+<p float="left">
+  <img src="example_images/tree.jpg" width="200" />
+  <img src="example_images/fire.jpg" width="200" /> 
+  <img src="example_output/tree-fire.jpg" width="200" />
+</p>
 
-![Fire image](example_images/fire.jpg) ![Tree image](example_images/tree.jpg) ![Fire converted to tree color palette](example_output/fire-tree.jpg)
+<p float="left">
+  <img src="example_images/fire.jpg" width="200" />
+  <img src="example_images/tree.jpg" width="200" /> 
+  <img src="example_output/fire-tree.jpg" width="200" />
+</p>
 
 ### Example image credits
 - `example_images/afrofuturism.png`: Kaylan Michel [more information](https://mossandfog.com/beautifully-vibrant-afrofuturism-collages/)
@@ -44,15 +52,15 @@ This utility uses a relatively simple algorithm for color palette conversion. Fi
 There is an option to convert the image to grayscale before applying the mapping to it. The construction of the mapping is the same, but the application will only happen after an image is first converted to grayscale. This option can be activated by adding an optional `-gray` option to the end of the execution command. Using this command tends to make the result more extreme and loses much of the color information of the original image, which is better if you're looking to completely convert color information rather than convert it by a small amount. An example of the difference is given below. The first example does not use grayscale, and the second does.
 
 <p float="left">
-  <img src="example_images/deadshot.jpg" width="50" />
-  <img src="example_images/superman.jpg" width="50" /> 
-  <img src="example_output/deadshot-superman.jpg" width="50" />
+  <img src="example_images/deadshot.jpg" width="200" />
+  <img src="example_images/superman.jpg" width="200" /> 
+  <img src="example_output/deadshot-superman.jpg" width="200" />
 </p>
 
 <p float="left">
-  <img src="example_images/deadshot.jpg" width="50" />
-  <img src="example_images/superman.jpg" width="50" /> 
-  <img src="example_output/deadshot-superman-gray.jpg" width="50" />
+  <img src="example_images/deadshot.jpg" width="200" />
+  <img src="example_images/superman.jpg" width="200" /> 
+  <img src="example_output/deadshot-superman-gray.jpg" width="200" />
 </p>
 
 ## Project information
